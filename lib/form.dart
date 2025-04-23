@@ -27,7 +27,7 @@ class _EstudiantesFormState extends State<EstudiantesForm> {
         'apellido': _apellidoController.text,
         'facultad': _selectedFacultad,
         'carrera': _carreraController.text,
-        'timestamp':DateTime.now().millisecondsSinceEpoch
+        //'timestamp':DateTime.now().millisecondsSinceEpoch
       };
 
       final response = await http.post(
