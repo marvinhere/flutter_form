@@ -113,7 +113,7 @@ class _EstudiantesFormState extends State<EstudiantesForm> {
                 decoration: InputDecoration(labelText: 'Carrera'),
                 validator: (value) {
                   if (value == null || value.isEmpty) {
-                    return 'Por favor ingresa la carrera';
+                    return 'Por favor ingresa la carrera que estudias';
                   }
                   return null;
                 },
