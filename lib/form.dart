@@ -103,7 +103,7 @@ class _EstudiantesFormState extends State<EstudiantesForm> {
                 },
                 validator: (value) {
                   if (value == null || value.isEmpty) {
-                    return 'Por favor selecciona una facultad';
+                    return 'Por favor selecciona una facultad :)';
                   }
                   return null;
                 },
